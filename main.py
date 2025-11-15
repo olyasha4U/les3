@@ -21,7 +21,7 @@ class Counter:
         return self
 
     def __next__(self):
-        self.a *= 1
+        self.a *= 2
         return self.a
 
 c = iter(Counter())
